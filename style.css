@@ -85,16 +85,23 @@ INIZIO RESPONSIVE
   #lezioni .row>.left,
   #lezioni .row>.right {
     float: none;
+    margin: 0 auto;
   }
 
   .row {
     margin-left: none;
+    width: 419px;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-  float: none;
-  
+  float: none; 
+  margin: 0 auto;
 }
+
+.container.grey {
+  background-color: none;
+}
+
 }
